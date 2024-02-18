@@ -13,7 +13,7 @@ from trl import SFTTrainer
 
 # Load dataset from JSONL file
 data_list = []
-with jsonlines.open('/home/mathias.berti/work/LLM/data/ft_dataset.jsonl') as reader:
+with jsonlines.open('LegI-EX/data/ft_dataset.jsonl') as reader:
     for line in reader:
         data_list.append(line)
 
