@@ -1,0 +1,588 @@
+#
+# This is a non-breaking prefix list for the Italian language.
+# The file is used for sentence tokenization (text -> sentence splitting).
+#
+# The file was taken from Lingua::Sentence package:
+#     http://search.cpan.org/~achimru/Lingua-Sentence-1.03/lib/Lingua/Sentence.pm
+#
+
+# Anything in this file, followed by a period (and an upper-case word), does NOT
+# indicate an end-of-sentence marker.
+# Special cases are included for prefixes that ONLY appear before 0-9 numbers.
+
+# Any single upper case letter followed by a period is not a sentence ender
+# Nsually upper case letters are initials in a name.
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z
+
+# No Italian words end in single lower-case letters, so we throw those in too?
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+q
+r
+s
+t
+u
+v
+w
+x
+y
+z
+
+# English -- but these work globally for all languages
+Mr
+Mrs
+No
+pp
+St
+no
+Sr
+Jr
+Bros
+etc
+vs
+esp
+Fig
+fig
+Jan
+Feb
+Mar
+Apr
+Jun
+Jul
+Aug
+Sep
+Sept
+Oct
+Okt
+Nov
+Dec
+Ph.D
+PhD
+"et al."
+al
+cf
+Inc
+Ms
+Gen
+Sen
+Prof
+Dr
+Corp
+Co
+
+
+# http://www.chass.utoronto.ca/~ngargano/corsi/corrisp/abbreviazioni.html
+avv
+Avv
+a.c 
+es 
+all 
+Amn 
+Arch 
+Avv
+Bcc
+c.a
+C.A.P
+Cc
+banc
+post
+c.c.p
+c.m
+Co
+c.p
+C.P
+comma
+Comma
+comm
+Comm
+corr
+c.s
+c.v
+d.m
+D.m
+D.M
+Dott
+Dr
+ecc
+Egr
+e.p.c
+fatt
+Geom
+geom
+gg
+Id
+Ing
+ing
+int
+lett
+Mo
+Mons
+n
+nr
+N.B
+n.b
+n.p
+ogg
+on
+pag
+pagg
+pp
+p.c
+p.c
+p.c.c
+p.es
+p.f
+p.r
+P.S
+p.v
+P.T
+Prof
+racc
+Rag
+Rev
+ric
+Rif
+RP
+RSVP
+S.A
+acc
+S.B.F
+seg
+sgg
+ss
+sig
+sigg
+Sig
+Sigg
+s.n.c
+Soc
+S.p.A
+s.p.a
+Spett
+S.P.M
+S.r.l
+tel
+u.s
+V.P
+v.r
+v.s
+
+# Abbreviazioni specifiche per il linguaggio giuridico italiano (documento LUMSA)
+
+Ad
+ad
+AD
+ART
+LGS
+lgs
+Lgs
+Pl
+PL
+pl
+A.d
+a.d
+A.D
+P.l
+P.L
+p.l
+Amm
+amm
+Art
+Artt
+art
+artt
+c.c
+Cfr
+co
+Co
+cons
+Cons
+cfr. Cons.
+Stato sez.
+sez
+Sez
+ord
+Ord
+cfr
+c. nav
+c. strada
+c. deont. forense
+c.p.c
+c.p.p
+c.p
+c.p.a
+c.p.m.g
+c.p.m.p
+Conv. eur. ass. giud
+Conv. eur. dir. umani
+Cost
+c.s
+C.s
+d.C.p.S
+d.P.C.m
+d.i
+disp. att. e coord 
+disp. prel. c.c
+d.l
+dlgs
+d.lgs
+D.Lgs
+D.lgs
+dlgt
+D.Lgt
+D.lgt
+d.lgt
+d.P.R
+d.lgt
+d.d.l
+d.p.c.m
+D.P.C.M
+dir
+l
+legge-delega
+l. ass
+l. cost
+l. fall
+l. reg
+l. camb. 
+reg
+Reg
+REG
+disp. att. c.p.p
+r.d
+r.d-l
+r.d.lgs
+nn
+ord. avv
+ord. giud 
+ord. penit 
+Patto int. dir. civ. e pol
+Proc. pen. min
+Prog. prel. c.p.p. 1988
+p.d.l
+reg. disc. mil
+reg. esec. c.p.p
+reg. penit
+Rel. prog. prel. c.p.p. 1988
+St. tr. int
+t.u
+t.u.immigrazione 
+t.u.l.p.s
+t.u.l.b.c
+t.u.l.s
+t.u.l.stup
+Comm. eur. dir. umani
+C. Stato
+Corte cost
+App
+Ass
+Ass. app 
+Cass
+CGCE
+Corte eur. dir. uomo
+G.i.p
+Giud. pace
+Pret
+p.m
+p.g
+Trib
+T.a.r
+T.A.R
+Trib. mil
+Trib. min
+Trib. sorv
+Dig. disc. pen
+Dig. disc. pen., App
+Dig. disc. pubbl
+Dig. disc. priv., Sez. civ
+Dig. disc. priv., Sez. comm
+Diz. enc. it
+Enc. dir
+Enc. for
+Enc. giu.
+Enc. giur. Treccani
+N. Dig. it
+Noviss. Dig. it
+Noviss. Dig. it., App
+Ann. dir. e proc. pen
+Arch. n. proc. pen
+Arch. giur. circ
+Arch. med. leg. ass 
+Arch. pen
+nv
+Banca, borsa e tit. cred 
+Boll. trib
+Cass. pen
+Mass. Cass. pen
+Contratto e impresa
+Corr. giur
+Corr. trib
+Critica dir 
+Critica pen
+Critica pen. e med. leg
+Danno e resp
+Democrazia e dir
+Dir. comunitario
+Dir. crim. e criminol
+Dir. Internet
+Dir. giust
+Dir. pratica lav
+Dir. pratica soc
+Dir. pratica trib
+Dir. fam
+Dir. form
+Dir. e giur. pen
+Dir. e società
+Dir. pen. proc
+www.penalecontemporaneo.it
+Dir. immigrazione
+Doc. giust
+Fam. e dir
+Gazz. giur
+G.U
+G.U.C.E
+G.U.P
+G.I.P
+g.u.p
+g.i.p
+Gazz. valut.
+giorn. dir. amm
+Giur. agr. it
+Giur. comm
+Giur. cost
+Giur. imposte
+Giur. merito
+Giur. it
+GT
+Giust.
+Giust. civ
+Giust. e Cost
+Guida dir
+Guida lav
+Guida norm
+Dir. uomo
+ISL
+Cons. Stato
+Impresa
+Corr. merito
+Dir. autore
+Dir. inf
+Dir. fall. e soc. comm
+Il Fall
+Il Fisco
+Foro ambr
+Foro amm 
+Foro it 
+Foro it. Rep
+Foro pen
+Foro tosc
+Dir. lav
+Dir. ind
+Giud. pace
+Giusto proc
+Lav. giur
+Inf. e dir
+Dif. pen
+Giust. pen
+Legisl. pen
+Questione crim
+Leg. e giust
+Le leggi
+Nuove leggi civ. comm
+Ind. pen
+C.E.D. Cass
+Mass. Foro it
+Mass. Dec. pen
+Mass. Giur. it
+Mass. giur. lav
+Minori giust
+Notiz. C.s.m
+Notiz. pen
+Nuova rass
+Nuovo dir
+Pol. dir
+Proc. pen. e giust
+Psich., scienze pen. e antr. crim
+Quaderni C.S.M
+Quaderni cost
+Quaderni giust
+Quaderni criminol. clin
+Quaderni pen
+Quaderni scienze pen
+Quest. crim
+Quest. giust
+Rass. giust. mil
+Rass. crimin
+Rass. dir. farm
+Rass. studi penit 
+Rass. Forense
+Rass. giur. en. elettr
+Rass. giur. umbra
+Rass. parlam
+Rass. penit. e criminol
+Riv. amm
+Riv. infortuni
+Riv. GF
+Riv. soc
+Riv. dir. civ
+Riv. dir. crim. e criminol
+Riv. giur. circ. trasp
+Riv. giur. polizia locale
+Resp. civ
+Riv. critica dir. lav
+Riv. dir. lav 
+Riv. dir. sport
+Riv. dir. eur
+Riv. dir. ind
+Riv. dir. int
+Riv. dir. int. priv. e proc
+Riv. dir. matr
+Riv. dir. penit
+Riv. dir. proc
+Riv. dir. proc. pen
+Riv. polizia
+Riv. giur. ambiente
+Riv. giur. circ. trasp
+Riv. giur. edil
+Riv. giur. lav. prev. soc
+Riv. giur. polizia loc
+Riv. int. dir. uomo
+Riv. it. dir. lav
+Riv. it. dir. pen
+Riv. it. dir. e proc. pen
+Riv. it. dir. pubbl. comp
+Riv. it. med. leg
+Riv. pen
+Riv. pen. ec
+Riv. dir. proc
+Riv. proc. pen
+Riv. trim. dir. pen. ec
+Sanità pubbl
+Urb. e app
+Vita not
+www.giustizia.it
+www.parlamento.it
+www.senato.it
+www.camera.it
+www.penalecontemporaneo.it
+www.archiviopenale.it
+www.processopenalegiustizia.it
+www.giurisprudenzapenale.it
+www.questionegiustizia.it
+www.rassegnapenitenziaria.it 
+www.aic.it 
+www.federalismi.it
+www.associazionebancaria.it
+
+
+AA
+VV
+App
+cc
+can
+cann
+Cass
+c.d
+cit
+c.j.c
+cod. civ
+cod. pen
+cod. proc. civ
+cod. proc. pen
+Corte cost
+dec
+D-L
+D.M
+D.P.C.M
+D.P.R
+d.p.r
+ID
+lett
+L.R
+l.r
+ord
+prot
+pp
+par
+Pret
+R.D
+r.d.l
+ss
+sent
+Sez. un.
+se
+suppl. ord
+Trib
+T.U
+v
+vol
+
+S.s
+S.S
+s.s
+S.n.c
+s.n.c
+s.p.a
+S.p.A
+s.r.l
+S.r.l
+S.r.l.c.r
+s.r.l.c.r
+S.r.l.s
+s.r.l.s
+S.a.p.A
+s.a.p.a
+Coop.
+coop.
+Soc
+soc
+S.c.a.r.l
+s.c.a.r.l
+S.a.d
+s.a.d
+ISCRIZ
+iscriz
+NO
+No
+Alme
+bis
+ter
