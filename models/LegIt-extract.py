@@ -27,7 +27,7 @@ def main():
         return (tokenizer.decode(outputs[0], skip_special_tokens=True))
     
     
-    models_list = ["provaCV-0"]
+    models_list = ["LLMs to test names"]
 
         
     for model_name in models_list:
