@@ -1,0 +1,17 @@
+trl
+bitsandbytes
+transformers
+peft
+accelerate
+sentencepiece
+torch
+argparse
+time
+pandas
+scikit-learn
+json
+jsonlines
+random
+os
+nltk
+tqdm
