@@ -35,7 +35,7 @@ fine-tuning and CV-SFT.py for Cross Validation fine-tuning. In data folder is
 possible to find the complete fine-tuning dataset and its subsets. Be careful
 about updating the path to the chosen fine-tuning dataset.
 
-#Evaluation
+## Evaluation
 
 To perform evaluation of the models, just run event extraction for every
 model in models folder specifying data/sents_eval.txt as input file and confront
