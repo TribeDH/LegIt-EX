@@ -5,28 +5,30 @@ extracted from it are made available for replication of the experiment. Anyway,
 with the appropriate modifications to the dataset path and data frame column
 names, theoretically any dataset could be used in this process.
 
-#Setup
+## Setup
 
 Clone the repository from GitHub and install:
-'git clone https://github.com/TribeDH/LegIt-EX
+```
+git clone https://github.com/TribeDH/LegIt-EX 
 pip install -r requirements.txt
-pip install -e ./'
+pip install -e ./
+```
 
-#Extraction
+## Extraction
 
 To run event extraction, different scripts for every model and document type
 are provided due to schema variation in the models folder. The scripts take
 the input sentences file as an external argument. Sample data from Maggioli
 dataset is provided in data folder. For example, to run legal event extraction
 with Zephyr-7b model:
-
-'cd models
-python zephyr_docs.py LegItEX/data/sents_docs.txt'
-
+```
+cd models
+python zephyr_docs.py LegItEX/data/sents_docs.txt
+```
 When using LegIt-EX model, remember to choose the name of the model
 from https://huggingface.co/sberti.
 
-#Fine-tuning
+## Fine-tuning
 
 To fine-tune the model, two different scripts are provided: SFT.py for base
 fine-tuning and CV-SFT.py for Cross Validation fine-tuning. In data folder is
